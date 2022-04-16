@@ -8,7 +8,7 @@
 
 ### **start**: *node dist/index.js* - ejecutara el codigo transpilado de nuestro archivo index.ts *index.js*
 
-### **dev**: *"concurrently \"npx tsc --watch\" \"nodemon -q dist/index.js\"* - ejecuta 2 comandos de manera concurrente, el primero de ellos lo que hace es escuchar cualquier modificacion en nuesto archivo index.ts para transpilarla y el segundo lo que hara es ejecutar un demon de nuestro proyecto en especifico de nuestro *dist/index.js*
+### **dev**: *"concurrently \\"npx tsc --watch\\" \\"nodemon -q dist/index.js\\"* - ejecuta 2 comandos de manera concurrente, el primero de ellos lo que hace es escuchar cualquier modificacion en nuesto archivo index.ts para transpilarla y el segundo lo que hara es ejecutar un demon de nuestro proyecto en especifico de nuestro *dist/index.js*
 
 ### **serve:coverage**: *npm run test && cd coverage/lcov-report && npx serve* - primero lanza un test, luego que se muestre la cobertura de test y se sirva en un servidor web
 
